@@ -54,16 +54,26 @@
                     </a>
                     @endif
 
+
                     <x-button class="btn">
                         {{ __('Log in') }}
                     </x-button>
+                    <a href="{{ url('/register') }}">Register</a>
+
+
+
                 </div>
 
 
 
+
             </form>
+
+
+
         </div>
     </div>
+
 
 
 

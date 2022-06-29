@@ -64,7 +64,7 @@
             <span class="text-primary">Dream Vacations</span> The world is a book, and those who do not travel read only a page.
           </h6>
 
-          <a href="admin.blade.php" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
+          <a href="/login" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
         </div>
         <div class="col-md-6 animated fadeIn">
           <div class="owl-carousel header-carousel">
