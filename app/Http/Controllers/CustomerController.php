@@ -12,10 +12,10 @@ class CustomerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $customers = Customer::all();
-        return view('customer', ["customers" => $customers]);
+        return view('reportsList', ["customers" => $customers]);
     }
 
     /**
@@ -76,6 +76,12 @@ class CustomerController extends Controller
     public function show(Customer $customer)
     {
         //
+        //$customer = Customer::find($id);
+        // $customers = Customer::all();
+
+
+
+        // return view('reportsList', ["customers" => $customers]);
     }
 
     /**
