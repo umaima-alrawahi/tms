@@ -279,8 +279,8 @@
                                         <h2 class="fs-title">Payment Information</h2>
 
                                         <div class="radio-group">
-                                            <div class='radio' data-value="credit"><img src="https://i.imgur.com/XzOzVHZ.jpg" width="200px" height="100px"></div>
-                                            <div class='radio' data-value="paypal"><img src="https://i.imgur.com/jXjwZlj.jpg" width="200px" height="100px"></div> <br>
+                                            <div class='radio' data-value="credit"><img src="/public/img/pay.jpg" width="200px" height="100px"></div>
+                                            <div class='radio' data-value="paypal"><img src="/public/img/payy.jpg" width="200px" height="100px"></div> <br>
                                         </div> <label class="pay">Card Holder Name*</label> <input type="text" name="holdername" placeholder="" />
                                         <div class="row">
                                             <div class="col-9"> EEees `eb !S44 vd67ycu<label class="pay">Card Number*</label> <input type="number" name="cardno" placeholder="" />
