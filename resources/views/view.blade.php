@@ -41,14 +41,14 @@
                                             <tr>
                                                 <td>
                                                     <label for="First_Name">
-                                                        <b>First name *</b>
+                                                        <b>First name </b>
                                                     </label><br />
                                                     <label name="First_Name">{{$customer->First_Name}}</label>
 
                                                 </td>
                                                 <td>
                                                     <label for="Second_Name">
-                                                        <b>Second name *</b>
+                                                        <b>Second name </b>
                                                     </label><br />
                                                     &nbsp;&nbsp;&nbsp;
                                                     <label name="Second_Name">{{$customer->Second_Name}}</label>
@@ -58,23 +58,23 @@
                                                 <td colspan="2">
                                             <tr>
                                                 <td style="width: 50%">
-                                                    <label for="Third_Name"><b>Third name *</b></label><br />
+                                                    <label for="Third_Name"><b>Third name </b></label><br />
                                                     <label name="Third_Name">{{$customer->Third_Name}}</label>
                                                 </td>
                                                 <td style="width: 50%">
-                                                    <label for="Last_Name"><b>Last name *</b></label><br />
+                                                    <label for="Last_Name"><b>Last name </b></label><br />
                                                     &nbsp;&nbsp;&nbsp;<label name="Third_Name">{{$customer->Last_Name}}</label>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2">
 
-                                                    <label for="Email_Address"><b>Email *</b></label><br />
+                                                    <label for="Email_Address"><b>Email </b></label><br />
 
                                                     <label name="Email_Address">{{$customer->Email_Address}}</label>
                                             <tr>
                                                 <td>
-                                                    <label for="Phone"><b>Phone *</b></label><br />
+                                                    <label for="Phone"><b>Phone </b></label><br />
                                                     <label name="Phone">{{$customer->Phone}}</label>
 
                                                 </td>
@@ -102,7 +102,7 @@
 
                                             </tr>
                                             <tr>
-                                                <td colspan="2">
+                                                <td colspan="5">
                                                     <label for="BirthDate"><b>BirthDate</b></label><br />
                                                     <label name="BirthDate">{{$customer->BirthDate}}</label>
 
@@ -130,7 +130,7 @@
 
                                     <div class="form-card">
                                         <h2 class="fs-title">Flight&Transport</h2>
-                                        <table border="0" cellpadding="5" cellspacing="0">
+                                        <table cellpadding="2">
                                             <tr>
                                                 <td>
                                                     <div class="form-group">
