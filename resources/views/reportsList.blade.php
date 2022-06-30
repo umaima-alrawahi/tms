@@ -55,7 +55,7 @@
                                                 <tr>
                                                     @foreach($customers as $customer)
                                                 <tr>
-                                                    <td>{{$customer->First_Name}}</td>
+                                                    <td> <a href="/customers/view/{{$customer->id}}">{{$customer->First_Name}}</td>
                                                     <td>{{$customer->Check_In}}</td>
                                                     <td>{{$customer->Country}}</td>
 

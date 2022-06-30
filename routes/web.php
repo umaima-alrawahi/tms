@@ -42,6 +42,10 @@ Route::get('/customerdetails', function () {
 // });
 
 Route::get('/reportslist', 'App\Http\Controllers\CustomerController@index');
+Route::get('/customers/view/{id}', 'App\Http\Controllers\CustomerController@show');
+Route::get('/view', function () {
+    return view('view');
+});
 
 
 
