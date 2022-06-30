@@ -27,7 +27,8 @@
         <div class="row justify-content-center mt-0">
             <div class="col-11 col-sm-9 col-md-7 col-lg-6 text-center p-0 mt-3 mb-2">
                 <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
-                    <h2><strong>Reports</strong></h2></br></br>
+                    <h2><strong> Report of {{$customer->First_Name}} </strong></h2></br></br>
+
                     <div class="row">
                         <div class="col-md-12 mx-0">
                             <form id="form">
@@ -75,7 +76,7 @@
                                                     <label name="Last_Name">{{$customer->Last_Name}}</label>
                                                 </td>
 
-
+                                            </tr>
 
                                             <tr>
 
@@ -86,7 +87,6 @@
                                                     <label name="Email_Address">{{$customer->Email_Address}}</label>
 
                                                 </td>
-
                                                 <td>
                                                     <label for="Phone"><b style="padding: 30px; margin: 10px">Phone </b></label><br />
                                                     <label name="Phone">{{$customer->Phone}}</label>
@@ -122,11 +122,7 @@
 
                                                 </td>
 
-
-
-
                                             </tr>
-
 
                                             </tr>
                                             <tr>
@@ -141,7 +137,6 @@
                                     </br></br>
 
                                     <div class="form-card">
-                                        <h2 class="fs-title">Flight&Transport</h2>
                                         <table cellpadding="2">
                                             <tr>
                                                 <td>

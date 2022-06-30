@@ -8,7 +8,7 @@
 
     <!--- CDN link----->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js	"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js  "></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -125,19 +125,18 @@
                                                 <td>
                                                     <label for="First_Name">
                                                         <b>First name *</b>
-                                                    </label><br />
+                                                    </label>
                                                     <input name="First_Name" type="text" required />
                                                 </td>
                                                 <td>
                                                     <label for="Second_Name">
                                                         <b>Second name *</b>
-                                                    </label><br />
+                                                    </label>
                                                     &nbsp;&nbsp;&nbsp;<input name="Second_Name" type="text" required />
                                                 </td>
-                                            </tr>
-                                            <tr>
                                                 <td colspan="2">
                                             <tr>
+
                                                 <td style="width: 50%">
                                                     <label for="Third_Name"><b>Third name *</b></label><br />
                                                     <input name="Third_Name" type="text" required />
@@ -150,7 +149,7 @@
                                             <tr>
                                                 <td colspan="2">
                                                     <label for="Email_Address"><b>Email *</b></label><br />
-                                                    <input name="Email_Address" type="text" required />
+                                                    <input name="Email_Address" type="email" required />
                                             <tr>
                                                 <td>
                                                     <label for="Phone"><b>Phone *</b></label><br />
@@ -168,13 +167,12 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td colspan="2">
+                                                <td>
                                                     <label for="IDNumber"><b>IDNumber</b></label><br />
-                                                    <input name="IDNumber" type="text" maxlength="50%" />
+                                                    <input name="IDNumber" type="number" maxlength="50%" />
                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="2">
+
+                                                <td>
                                                     <label for="IDCardCopy"><b>IDCardCopy</b></label><br />
                                                     <input name="IDCardCopy" type="file" />
                                                 </td>
@@ -185,7 +183,7 @@
                                                     <input name="BirthDate" type="date" maxlength="50" />
                                                 </td>
                                             </tr>
-                                            <label for="gender"><b> Select your gender</b></label>
+                                            <label style=" padding: 20px" for="gender"><b> Select your gender</b></label>
                                             <select name="gender">
                                                 <option value="none" selected>Gender</option>
                                                 <option value="male">Male</option>
@@ -214,13 +212,13 @@
                                     <div class="form-card">
                                         <h2 class="fs-title">Flight&Transport</h2>
 
-                                        <div class="form-group">
-                                            <span class="form-label">Flight Booking</span>
-                                            <input type="radio" id="yes" name="Flight" value="YES" width="200px" height="100px">
-                                            <label for="yes">Yes</label>
-                                            <input type="radio" id="no" name="Flight" value="NO" width="200px" height="100px">
-                                            <label for="no">No</label>
-                                        </div>
+
+                                        <span>Flight Booking</span>
+                                        <input type="radio" id="yes" name="Flight" value="YES">
+                                        <label for="yes">Yes</label>
+                                        <input type="radio" id="no" name="Flight" value="NO">
+                                        <label for="no">No</label>
+
 
                                         <div class="form-group">
                                             <span class="form-label">Destination</span>
