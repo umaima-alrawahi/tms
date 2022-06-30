@@ -31,15 +31,7 @@ Route::get('/forgot-password', function () {
 Route::get('/login', function () {
     return view('admin');
 });
-//customerdetails
-Route::get('/customerdetails', function () {
-    return view('customerDetails');
-});
 
-//reportsList.blade
-// Route::get('/reportslist', function () {
-//     return view('reportsList');
-// });
 
 Route::get('/reportslist', 'App\Http\Controllers\CustomerController@index');
 
