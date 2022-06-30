@@ -65,6 +65,7 @@ Route::get('/wel', function () {
 Route::get('/trips', 'App\Http\Controllers\TripController@index');
 Route::get('/trips/create', 'App\Http\Controllers\TripController@create');
 Route::post('/trips/store', 'App\Http\Controllers\TripController@store');
+Route::get('/customers/delete/{id}', 'App\Http\Controllers\CustomerController@download');
 // Route::get('/trip', function () {
 //     return view('trip');
 // });
