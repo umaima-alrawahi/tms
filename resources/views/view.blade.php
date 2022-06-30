@@ -215,6 +215,10 @@
 
                                     </div>
                                 </fieldset>
+                                <div class="form-group">
+                                    <!-- Submit Button -->
+                                    <button type="submit" class="btn btn-primary">Print</button>
+                                </div>
                             </form>
                         </div>
                     </div>

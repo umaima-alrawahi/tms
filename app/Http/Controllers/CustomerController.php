@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use PDF;
 use App\Models\Customer;
 use Illuminate\Http\Request;
 
@@ -66,6 +67,14 @@ class CustomerController extends Controller
         $customer->expyear = $request->input('expyear');
         $customer->save();
         return redirect('/reportslist');
+    }
+
+    public function downloadPDF($id)
+    {
+        $customer = Customer::find($id);
+
+        $pdf = PDF::loadView('pdf', compact('customer'));
+        return $pdf->download('invoice.pdf');
     }
 
     /**
