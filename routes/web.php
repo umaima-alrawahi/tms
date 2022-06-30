@@ -15,6 +15,10 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::get('/view', function () {
+    return view('view');
+});
+
 Route::get('/customerdetails', function () {
     return view('customerDetails');
 });
