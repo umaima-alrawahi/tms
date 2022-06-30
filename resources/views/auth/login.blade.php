@@ -55,9 +55,9 @@
                     @endif
 
 
-                    <x-button class="btn">
+                    <button class="btn">
                         {{ __('Log in') }}
-                    </x-button>
+                    </button>
                     <a href="{{ url('/register') }}">Register</a>
 
 

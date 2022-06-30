@@ -65,6 +65,7 @@ class CustomerController extends Controller
         $customer->expmonth = $request->input('expmonth');
         $customer->expyear = $request->input('expyear');
         $customer->save();
+        return redirect('/reportslist');
     }
 
     /**

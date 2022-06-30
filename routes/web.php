@@ -17,7 +17,7 @@ use Illuminate\Http\Request;
 
 Route::get('/view', function () {
     return view('view');
-});
+})->middleware(['auth']);
 
 Route::get('/customerdetails', function () {
     return view('customerDetails');
@@ -28,9 +28,9 @@ Route::post('/customers/store', 'App\Http\Controllers\CustomerController@store')
 Route::get('/forgot-password', function () {
     return view('forgot-password');
 });
-Route::get('/login', function () {
-    return view('admin');
-});
+// Route::get('/login', function () {
+//     return view('admin');
+// });
 
 
 Route::get('/reportslist', 'App\Http\Controllers\CustomerController@index');
@@ -40,7 +40,11 @@ Route::get('/view', function () {
     return view('view');
 });
 
+Route::get('/admin', function () {
+    return view('admin');
+})->middleware(['auth']);
 
+require __DIR__ . '/auth.php';
 
 
 
